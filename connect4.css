@@ -4,35 +4,24 @@ body {
 }
 
 #board {
-  /*height: 540px;
-    width: 630px;*/
-  /*height: 54vh;
-    width: 63vw;*/
-  background-color: blue;
-  border: 10px solid navy;
+  border-radius: 25px;
+  background-color: deepskyblue;
+  border: 10px solid indigo;
 
-  /*margin: 0 auto;*/
-  /*display: flex;*/
   display: grid;
   grid-template-columns: repeat(7, 13vw);
   grid-template-rows: repeat(6, 15%);
   gap: 0.35vw;
-  /*flex-wrap: wrap;*/
-  /*flex-wrap: nowrap;*/
 }
 
 .tile {
-  /*height: 70px;
-    width: 70px;*/
   height: 6vw;
   width: 6vw;
-  /*margin: 5px;*/
-  /*margin: 1vh auto;*/
   margin: 0 auto;
   /* Circle */
   background-color: white;
   border-radius: 50%;
-  border: 5px solid navy;
+  border: 5px solid darkcyan;
 }
 
 .red-piece {
@@ -41,4 +30,10 @@ body {
 
 .yellow-piece {
   background-color: yellow;
+}
+
+#title {
+    font-family: "Lucida Console", "Courier New", fantasy;
+    font-size: 60px;
+    color: green;
 }
